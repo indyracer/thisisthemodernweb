@@ -4,6 +4,31 @@
 	font-weight: bold;
 }
 
-h1, h2, h3 {
+body {
+	padding: 20px;
+	text-align: center;
+	font-size: 62.5%;
+	background-color: #FF9933;
+	font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+	text-transform: uppercase;
+}
+
+h1 {
 	font-family: ostrich;
+	font-size: 7em;
+}
+
+h3 {
+	font-size: 2em;
+}
+
+p {
+	font-size: 1.4em;
+}
+
+a {
+	color: #333;
 }
