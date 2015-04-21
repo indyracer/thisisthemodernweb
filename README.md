@@ -17,6 +17,6 @@ A starter project for those looking to learn html5
 	* Really, no CSS!
 	* Your page must validate as HTML5 using the [w3c Validator](http://validator.w3.org). Among other things, this means you may not use things such as `<font>` tags or the `background` attribute on your `<body>`. (Don't worry, we'll make our page look pretty later.)
 	* Be original, and create your page without looking at the source for other pages in the project (other than the one linked above).
-8. Make a few commits and pushes as you go. Once you've pushed your first set of pages, you should be able to view your page live at [http://&lt;username&gt;.github.io/thisishtml5/submissions/&lt;username&gt;/]
+8. Make a few commits and pushes as you go. Once you've pushed your first set of pages, you should be able to view your page live at http://&lt;username&gt;.github.io/thisishtml5/submissions/&lt;username&gt;/
 8. When you're done, commit and push your changes to your fork (add some nice comments), and [create a pull request](https://help.github.com/articles/creating-a-pull-request/) so your changes can be merged into the main repo.
 9. Wait for your changes to be pulled, and then look for your page on [the project page](http://chrisbay.github.io/thisishtml5/)!
