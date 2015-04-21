@@ -5,7 +5,7 @@ A starter project for those looking to learn html5
 
 ###Your mission, should you choose to accept it:
 
-1. Fork this repo ([remember how?](https://help.github.com/articles/fork-a-repo/)), and clone it to your local machine. (If you haven't set up your GitHub account and/or haven't learned the basics of GitHub yet, start with the [git-it tutorial over at nodeschool.io](http://nodeschool.io)). Make sure you fork the `gh-pages` branch, and not `master`.
+1. Fork this repo ([remember how?](https://help.github.com/articles/fork-a-repo/)), and clone it to your local machine. (If you haven't set up your GitHub account and/or haven't learned the basics of GitHub yet, start with the [git-it tutorial over at nodeschool.io](http://nodeschool.io)).
 2. Create a new branch with the name "add-&lt;username&gt;" (where &lt;username&gt; is your GitHub username, e.g. "add-chrisbay") and switch to your new branch on your local machine. (Not sure what this means? Time to go back and review or actually do [that nodeschool.io tutorial](http://nodeschool.io).)
 3. Create a new directory: `submissions/<username>`. 
 4. Create a new `index.html` file within your new directory, and stub it out with these basic elements: the HTML5 doctype, `<html>`, `<head>`, `<title>`, and `<body>`, with appropriate content.
