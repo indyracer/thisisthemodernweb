@@ -3,7 +3,7 @@
 This is the first of three exercises, which build off of each other. You'll get comfortable with semantic markup, some elements introduced by HTML5, and separating content from design and layout.
 
 ###Prerequisites
-* You've set up your environment and the project as outlined in the [setup guide](../tree/gh-pages/setup)
+* You've set up your environment and the project as outlined in the [setup guide](https://github.com/chrisbay/thisisthemodernweb/tree/gh-pages/setup)
 * Familiarity with the basics of HTML
 * Understanding of 
 
