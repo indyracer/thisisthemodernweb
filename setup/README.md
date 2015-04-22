@@ -33,5 +33,5 @@ ln -s /Applications/MAMP/htdocs ~/Dropbox
 5. Jump down into this new directory, and create/open a new file: `mate index.html &`
 6. Add a single line and save: `<p>YOUR NAME</p>`
 7. Verify that your new page loads locally by visiting http://localhost:8888/thisisthemodernweb/submissions/&lt;username&gt;'
-8. Move back up to the project root (`~/Dropbox/htdocs/thisisthemodernweb/`) and `git add .` to stage your new files. Then commit and push them to your fork.
+8. Move back up to the project root (`~/Dropbox/htdocs/thisisthemodernweb/`) and `git add .` to stage your new files. Then commit and push them to your fork. When pushing, note that you're on the `gh-pages` branch of the project, not `master` (as you'll often be, and will see most often in documentation). So push using `git push origin gh-pages`.
 9. You should be able to view your page live at http://&lt;username&gt;.github.io/thisishtml5/submissions/&lt;username&gt;/. This may take a few minutes to propogate, so if you don't see it right away, try again later. This is the magic of [GitHub Pages](https://pages.github.com)
