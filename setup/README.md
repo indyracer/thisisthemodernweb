@@ -30,12 +30,11 @@ If you're already comfortable with Git and have a local web dev environment set 
 
 ##Setting up the project
 
-1. Fork the [This is the Moder Web repo](https://github.com/chrisbay/thisisthemodernweb) ([remember how?](https://help.github.com/articles/fork-a-repo/)), and clone it to your local machine. (If you haven't set up your GitHub account and/or haven't learned the basics of GitHub yet, start with the [git-it tutorial over at nodeschool.io](http://nodeschool.io)).
-2. Create a new branch with the name "add-&lt;username&gt;" (where &lt;username&gt; is your GitHub username, e.g. "add-chrisbay") and switch to your new branch on your local machine. (Not sure what this means? Time to go back and review or actually do [that nodeschool.io tutorial](http://nodeschool.io).)
-3. With your local web server running, navigate to [http://localhost:8888/thisisthemodernweb/](http://localhost:8888/thisisthemodernweb/) and ensure that you see an orange page with a funky headline font.
-4. `cd` to the `submissions` directory, and create a new directory: `cd <username>`.
-5. Jump down into this new directory, and create/open a new file: `mate index.html &`
-6. Add a single line and save: `<p>YOUR NAME</p>`
-7. Verify that your new page loads locally by visiting http://localhost:8888/thisisthemodernweb/submissions/&lt;username&gt;'
-8. Move back up to the project root (`~/Dropbox/htdocs/thisisthemodernweb/`) and `git add .` to stage your new files. Then commit and push them to your fork. When pushing, note that you're on the `gh-pages` branch of the project, not `master` (as you'll often be, and will see most often in documentation). So push using `git push origin gh-pages`.
-9. You should be able to view your page live at http://&lt;username&gt;.github.io/thisishtml5/submissions/&lt;username&gt;/. This may take a few minutes to propogate, so if you don't see it right away, try again later. This is the magic of [GitHub Pages](https://pages.github.com)
+1. Fork the [This is the Modern Web repo](https://github.com/chrisbay/thisisthemodernweb) ([remember how?](https://help.github.com/articles/fork-a-repo/)), and clone it to your local machine. (If you haven't set up your GitHub account and/or haven't learned the basics of GitHub yet, start with the [git-it tutorial over at nodeschool.io](http://nodeschool.io)).
+2. With your local web server running, navigate to [http://localhost:8888/thisisthemodernweb/](http://localhost:8888/thisisthemodernweb/) and ensure that you see an orange page with a funky headline font.
+3. `cd` to the `submissions` directory, and create a new directory: `cd <username>`.
+4. Jump down into this new directory, and create/open a new file: `mate index.html &`
+5. Add a single line and save: `<p>YOUR NAME</p>`
+6. Verify that your new page loads locally by visiting http://localhost:8888/thisisthemodernweb/submissions/&lt;username&gt;'
+7. Move back up to the project root (`~/Dropbox/htdocs/thisisthemodernweb/`) and `git add .` to stage your new files. Then commit and push them to your fork. When pushing, note that you're on the `gh-pages` branch of the project, not `master` (as you'll often be, and will see most often in documentation). So push using `git push origin gh-pages`.
+8. You should be able to view your page live at http://&lt;username&gt;.github.io/thisishtml5/submissions/&lt;username&gt;/. This may take a few minutes to propogate, so if you don't see it right away, try again later. This is the magic of [GitHub Pages](https://pages.github.com)
