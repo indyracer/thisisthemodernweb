@@ -25,8 +25,12 @@ If you're already comfortable with Git and have a local web dev environment set 
 	```
 	ln -s /Applications/MAMP/htdocs ~/Dropbox
 	```
-7. In the terminal, navigate to `~/Dropbox/htdocs` and create an `index.html` file (use `mate index.html` from the command line). Put a simle message there, e.g. `<h1>Success!</h1>`.
-8. Fire up MAMP and point your browser to [http://localhost:8888](http://localhost:8888). You should see your message.
+7. Link MAMP's database directory to your Dropbox directory, for backup:
+	```
+	ln -s /Applications/MAMP/db ~/Dropbox
+	```
+8. In the terminal, navigate to `~/Dropbox/htdocs` and create an `index.html` file (use `mate index.html` from the command line). Put a simle message there, e.g. `<h1>Success!</h1>`.
+9. Fire up MAMP and point your browser to [http://localhost:8888](http://localhost:8888). You should see your message.
 
 ##Setting up the project
 
