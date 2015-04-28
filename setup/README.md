@@ -7,18 +7,12 @@ If you're already comfortable with Git and have a local web dev environment set 
 1. Install [Homebrew](http://brew.sh), a great little package manager for OS X that uses Ruby and Git to install, update and manage packages.
 2. Install [node.js](https://nodejs.org) using Homebrew: `brew install node`
 3. Head over to [nodeschool.io](http://nodeschool.io/#workshopper-list), and install the git-it workshopper. This is a basic, self-guided, self-verifying tuturial on using Git with GitHub. Do it.
-4. Find a text editor that you like. We recommend [TextMate](https://macromates.com) and [Sublime Text](http://www.sublimetext.com), which are both free. Then, link the editor's executable file to `/usr/local/bin/` so we can run it from the command line:
+4. Find a text editor that you like. We recommend [TextMate](https://macromates.com) and [Sublime Text](http://www.sublimetext.com), which are both free. Then, we'll want to make sure we can run these editors easily from teh Terminal. If you're using TextMate, link the editor's executable file to `/usr/local/bin/` so we can run it from the command line:
 
 	```
 	sudo ln -s /Applications/TextMate.app/Contents/Resources/mate /usr/local/bin/
 	```
-	 	
-	or
-	
-	```
-	sudo ln -s /Applications/Sublime\ Text.app/Contents/MacOS/Sublime\ Text /usr/local/bin/sublime
-	```
-	You can now open your editor by simply typing `mate &` or `sublime &` at the command line. Try it! If it doesn't work, then `echo $PATH` and make sure you see `/usr/local/bin` in the list of directories. We'll use `mate` in what follows, so if you're using Sublime, make the appropriate substitutions in sample commands.
+	If you're using Sublime, follow [these instructions](https://gist.github.com/artero/1236170). You can now open your editor by simply typing `mate` or `sublime` at the command line (or, use open a file with `mate file.txt`). Try it! If it doesn't work, then `echo $PATH` and make sure you see `/usr/local/bin` in the list of directories. We'll use `mate` in what follows, so if you're using Sublime, make the appropriate substitutions in sample commands.
 5. Install [MAMP](https://www.mamp.info/en/)
 6. Link MAMP's docroot to your Dropbox directory, for both easy access and backup:
 
