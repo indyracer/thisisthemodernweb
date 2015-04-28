@@ -16,7 +16,9 @@ This is the first of three exercises, which build off of each other. You'll get 
 		- Tell your backstory (a la [about.me](https://about.me/backstory))
 		- Tell the story of a trip that you took
 		- Talk about some hobby or passion of yours
-	* Correctly uses each of the following 
+	* Correctly uses each of the following:
+		- Each of the following structural HTML5 tags: `<header>`, `<footer>`, `<article>`, `<section>`, `<aside>`, and `<nav>`
+		- 
 4. Don't break these rules:
 	* No CSS.
 	* Really, no CSS!
@@ -24,5 +26,25 @@ This is the first of three exercises, which build off of each other. You'll get 
 	* Your page must validate as HTML5 using the [w3c Validator](http://validator.w3.org). Among other things, this means you may not use things such as `<font>` or `<b>` tags, or the `background` attribute on your `<body>`. (Don't worry, we'll make our page look pretty later.)
 	* Be original, and create your page without looking at the source for other pages in the project (other than the one linked above).
 5. When you're done, commit and push all changes to your fork (add some nice comments), and [create a pull request](https://help.github.com/articles/creating-a-pull-request/) so your changes can be merged into the main repo.
-6. Wait for your changes to be pulled, and then look for your page on [the project page](http://chrisbay.github.io/thisishtml5/)!
-7. Well done. Time to [dive into some CSS]()!
+6. Wait for your changes to be pulled, and then look for your page on [the project page](http://chrisbay.github.io/thisisthemodernweb/)!
+7. Well done. Time to [dive into some CSS](https://github.com/chrisbay/thisisthemodernweb/tree/gh-pages/thisiscss3)!
+
+###Resources
+
+####HTML5 & CSS3 browser support
+*[Can I Use?](http://caniuse.com)
+*[HTML5 Please](http://html5please.com)
+*[HTML5 and CSS3 Readiness](http://html5readiness.com)
+*[HTML5 Test](https://html5test.com)
+*[How to add HTML5 elements to IE versions < 9](http://www.w3schools.com/html/html5_browsers.asp)
+
+####Semantic markup
+*[Let's Talk About Semantics](http://html5doctor.com/lets-talk-about-semantics/)
+*[Structural element flow chart](http://html5doctor.com/downloads/h5d-sectioning-flowchart.png)
+
+####General
+*[The <!DOCTYPE> declaration](http://www.w3schools.com/tags/tag_DOCTYPE.asp)
+*[Quirks mode (at Wikipedia)](http://en.wikipedia.org/wiki/Quirks_mode)
+*[Quirks mode examples](http://examples.strictquirks.nl/quirks/)
+*[HTML5 Spec](http://www.w3.org/TR/html5/) (a good cure for insomnia)
+*[w3schools Browser Stats](http://www.w3schools.com/browsers/browsers_stats.asp)

@@ -25,16 +25,22 @@ If you're already comfortable with Git and have a local web dev environment set 
 	```
 	ln -s /Applications/MAMP/htdocs ~/Dropbox
 	```
-
-7. Fire up MAMP and point your browser to [http://localhost:8888](http://localhost:8888). You should see a message reading "Success"
+7. In the terminal, navigate to `~/Dropbox/htdocs` and create an `index.html` file (use `mate index.html` from the command line). Put a simle message there, e.g. `<h1>Success!</h1>`.
+8. Fire up MAMP and point your browser to [http://localhost:8888](http://localhost:8888). You should see your message.
 
 ##Setting up the project
 
-1. Fork the [This is the Modern Web repo](https://github.com/chrisbay/thisisthemodernweb) ([remember how?](https://help.github.com/articles/fork-a-repo/)), and clone it to your local machine. (If you haven't set up your GitHub account and/or haven't learned the basics of GitHub yet, start with the [git-it tutorial over at nodeschool.io](http://nodeschool.io)).
-2. With your local web server running, navigate to [http://localhost:8888/thisisthemodernweb/](http://localhost:8888/thisisthemodernweb/) and ensure that you see an orange page with a funky headline font.
-3. `cd` to the `submissions` directory, and create a new directory: `cd <username>`.
-4. Jump down into this new directory, and create/open a new file: `mate index.html &`
-5. Add a single line and save: `<p>YOUR NAME</p>`
-6. Verify that your new page loads locally by visiting http://localhost:8888/thisisthemodernweb/submissions/&lt;username&gt;'
-7. Move back up to the project root (`~/Dropbox/htdocs/thisisthemodernweb/`) and `git add .` to stage your new files. Then commit and push them to your fork. When pushing, note that you're on the `gh-pages` branch of the project, not `master` (as you'll often be, and will see most often in documentation). So push using `git push origin gh-pages`.
-8. You should be able to view your page live at http://&lt;username&gt;.github.io/thisishtml5/submissions/&lt;username&gt;/. This may take a few minutes to propogate, so if you don't see it right away, try again later. This is the magic of [GitHub Pages](https://pages.github.com)
+1. Fork the [This is the Moder Web repo](https://github.com/chrisbay/thisisthemodernweb) ([remember how?](https://help.github.com/articles/fork-a-repo/)), and clone it to your local machine. (If you haven't set up your GitHub account and/or haven't learned the basics of GitHub yet, start with the [git-it tutorial over at nodeschool.io](http://nodeschool.io)).
+3. With your local web server running, navigate to [http://localhost:8888/thisisthemodernweb/](http://localhost:8888/thisisthemodernweb/) and ensure that you see an orange page with a funky headline font.
+4. `cd` to the `submissions` directory, and create a new directory: `cd <username>`.
+5. Jump down into this new directory, and create/open a new file: `mate index.html &`
+6. Add a single line and save: `<p>YOUR NAME</p>`
+7. Verify that your new page loads locally by visiting http://localhost:8888/thisisthemodernweb/submissions/&lt;username&gt;'
+8. Move back up to the project root (`~/Dropbox/htdocs/thisisthemodernweb/`) and `git add .` to stage your new files. Then commit and push them to your fork. When pushing, note that you're on the `gh-pages` branch of the project, not `master` (as you'll often be, and will see most often in documentation). So push using `git push origin gh-pages`.
+9. You should be able to view your page live at http://&lt;username&gt;.github.io/thisishtml5/submissions/&lt;username&gt;/. This may take a few minutes to propogate, so if you don't see it right away, try again later. This is the magic of [GitHub Pages](https://pages.github.com)
+
+##Setting up some dev and testing tools
+
+1. [Firefox](https://www.mozilla.org/en-US/firefox/new/) will be our preferred browser for web development. It has some good built-in dev tools, but you may also find the [Firebug](https://addons.mozilla.org/en-us/firefox/addon/firebug/) and [Web Developer](https://addons.mozilla.org/en-us/firefox/addon/web-developer/) extensions useful.
+2. Download and install at a couple Windows test VMs from [modern.ie](https://www.modern.ie/en-us/virtualization-tools). Start with IE11 on Windows 10 and IE8 on Windows 7.
+>>>>>>> Stashed changes
