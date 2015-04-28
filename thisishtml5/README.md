@@ -5,7 +5,7 @@ This is the first of three exercises, which build off of each other. You'll get 
 ###Prerequisites
 * You've set up your environment and the project as outlined in the [setup guide](https://github.com/chrisbay/thisisthemodernweb/tree/gh-pages/setup)
 * Familiarity with the basics of HTML
-* Understanding of 
+* Understanding of importance of semantic markup
 
 ###Your mission, should you choose to accept it:
 
@@ -18,7 +18,6 @@ This is the first of three exercises, which build off of each other. You'll get 
 		- Talk about some hobby or passion of yours
 	* Correctly uses each of the following:
 		- Each of the following structural HTML5 tags: `<header>`, `<footer>`, `<article>`, `<section>`, `<aside>`, and `<nav>`
-		- 
 4. Don't break these rules:
 	* No CSS.
 	* Really, no CSS!
