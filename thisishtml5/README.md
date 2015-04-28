@@ -20,6 +20,7 @@ This is the first of three exercises, which build off of each other. You'll get 
 		- Uses each of the following structural HTML5 tags: `<header>`, `<footer>`, `<main>`, `<article>`, `<section>`, `<aside>`, and `<nav>`
 		- Use at least one `<img>` tag (and hopefully more). If you find yourself wanting or needing to edit images on the Mac, I recommend installing [GIMP](http://www.gimp.org/downloads/). If you simply need to resize some photos to a common width or height, [try using Automator on the Mac](http://osxdaily.com/2011/12/20/batch-resize-pictures-in-mac-os-x-using-automator/). When placing images in your page, put them in a new directory called `images` within your `<username>` directory.
 		- Uses at least on [HTML entity](http://www.w3schools.com/html/html_entities.asp). Hint: putting a copyright notice in your footer will afford you the opportunity to use &copy;, but you should also try to get creative here.
+		- Gets creative. Don't stop with these items or tags. Have some ideas for your page, and make it great. And dig into the [w3schools HTML reference](http://www.w3schools.com/tags/default.asp) to learn more about other tags, their usage and attributes!
 4. Don't break these rules:
 	* No CSS.
 	* Really, no CSS!
