@@ -34,6 +34,7 @@ This is the first of three exercises, which build off of each other. You'll get 
 ###Resources
 
 ####HTML5 & CSS3 browser support
+* [HTML5 elements and usage](http://html5doctor.com/element-index/)
 * [Can I Use?](http://caniuse.com)
 * [HTML5 Please](http://html5please.com)
 * [HTML5 and CSS3 Readiness](http://html5readiness.com)
