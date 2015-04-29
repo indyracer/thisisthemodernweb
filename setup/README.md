@@ -41,4 +41,3 @@ If you're already comfortable with Git and have a local web dev environment set 
 
 1. [Firefox](https://www.mozilla.org/en-US/firefox/new/) will be our preferred browser for web development. It has some good built-in dev tools, but you may also find the [Firebug](https://addons.mozilla.org/en-us/firefox/addon/firebug/) and [Web Developer](https://addons.mozilla.org/en-us/firefox/addon/web-developer/) extensions useful.
 2. Download and install at a couple Windows test VMs from [modern.ie](https://www.modern.ie/en-us/virtualization-tools). Start with IE11 on Windows 10 and IE8 on Windows 7.
->>>>>>> Stashed changes
