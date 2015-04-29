@@ -10,7 +10,7 @@ This is the first of three exercises, which build off of each other. You'll get 
 ###Your mission, should you choose to accept it:
 
 1. Stub out `submissions/<username>/index.html` it out with these basic elements: the HTML5 doctype, `<html>`, `<head>`, `<title>`, and `<body>`, with appropriate content.
-2. Add five `<meta>` tags to the `<head>`, one to specify the `charset` as UTF-8, and four with `name`/`content` attribute pairs, with `name` equal to each of `"description"`, `"keywords"`, `"author"` and `"viewport"`. (To brush up on these `<meta>` tags, head over to [w3schools](http://www.w3schools.com/tags/tag_meta.asp) and look at the source for [my page in the project](http://chrisbay.github.io/thisishtml5/submissions/chrisbay/).) You don't need to fully understand what each of these does; that will become clear as we go along.
+2. Add five `<meta>` tags to the `<head>`, one to specify the `charset` as UTF-8, and four with `name`/`content` attribute pairs, with `name` equal to each of `"description"`, `"keywords"`, `"author"` and `"viewport"`. (To brush up on these `<meta>` tags, head over to [w3schools](http://www.w3schools.com/tags/tag_meta.asp) and look at the source for [my page in the project](http://chrisbay.github.io/thisisthemodernweb/submissions/chrisbay/).) You don't need to fully understand what each of these does; that will become clear as we go along.
 3. Build a page that...
 	* Tells a story. This can be personal, or not. Funny, serious or neither. You can do whatever you like, but generally, it should be something in the range of 3-10 paragraphs or sections. Here are some ideas:
 		- Tell your backstory (a&#768; la [about.me](https://about.me/backstory))
