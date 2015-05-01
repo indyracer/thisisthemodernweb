@@ -8,7 +8,7 @@ body {
 	padding: 20px;
 	text-align: center;
 	font-size: 62.5%;
-	background-color: #FF9933;
+	background-color: #EA9743;
 	font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
@@ -35,6 +35,7 @@ a {
 
 li {
 	list-style: none;
+	margin: 3px 0;
 }
 
 #page-list a {
