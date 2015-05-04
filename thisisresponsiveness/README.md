@@ -14,6 +14,7 @@ You'll learn how to create fluid, responsive layouts that look good at all width
 3. Make sure any other pixel measurements in your stylesheet are replaced with `em` measurements. Why? Read ["Why Ems?"](https://css-tricks.com/why-ems/).
 4. Make your images fluid by setting `img { max-width: 100%; }` in your stylesheet. Congratulations! You've just created a fluid (or liquid) layout.
 5. Determine which breakpoints you need. If you have a single-column layout, you may only need minor breakpoints, where you adjust font size, margin and padding. Start with a narrow width, and move outward as you adjust, using mobile-first princicples.
+6. When you're done, submit a pull request to the main repo.
 
 ###Testing
 
