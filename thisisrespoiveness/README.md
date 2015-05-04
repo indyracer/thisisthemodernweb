@@ -6,6 +6,7 @@ You'll learn how to create fluid, responsive layouts that look good at all width
 
 ###Prerequisites
 * You've completed [This is HTML5](https://github.com/chrisbay/thisisthemodernweb/tree/gh-pages/thisiscss3)
+* You understand the primary CSS units: px, em, %. ([w3schools CSS Units Reference](http://www.w3schools.com/cssref/css_units.asp))
 
 ###Your mission, should you choose to accept it:
 1. Give your page a flexible layout, that is, one based on percentage widths rather than pixel widths.
