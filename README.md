@@ -9,4 +9,4 @@ This is a three-part progressive exercise. Start by [getting your environment re
 * [Setup](https://github.com/chrisbay/thisisthemodernweb/tree/gh-pages/setup)
 * [This is HTML5](https://github.com/chrisbay/thisisthemodernweb/tree/gh-pages/thisishtml5)
 * [This is CSS3](https://github.com/chrisbay/thisisthemodernweb/tree/gh-pages/thisiscss3)
-* [This is responsiveness](https://github.com/chrisbay/thisisthemodernweb/tree/gh-pages/thisisresponsiveness)
+* [This is Responsiveness](https://github.com/chrisbay/thisisthemodernweb/tree/gh-pages/thisisresponsiveness)
