@@ -51,20 +51,17 @@ nav ul li {
 }
 
 article {
-	margin: 5em auto;
+	margin: 5em -1.25em;
 	padding: 1em 1.5em;
 	text-align: justify;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	box-shadow: 7px 7px 4px 0px rgba(0,0,0,.75);
 	font-size: 1.5em;
 }
 
-article.list {
-	background-color: #5CADFF;
+article.list {	
 }
 
 article.map {
-	background-color: #FBAA46;
 }
 
 section:first-child {
@@ -72,8 +69,8 @@ section:first-child {
 }
 
 section:last-child {
-	margin: 3em 0em 3em;
-	padding-bottom: 2em;
+	margin: 3em 0em 0em;
+	padding-bottom: 4em;
 }
 
 section {
@@ -113,6 +110,7 @@ a {
 h2 {
 	display: block;
 	margin: 0em -1em;
+	padding: 0 1em;
 	font-family: LeagueGothic, Impact, "Courier New", sans-serif;
 	font-size: 2.0em;
 	text-align: center;
@@ -129,7 +127,7 @@ h3 {
 
 section:hover {
 	display: block;
-	background-color: white;
+	background-color: #FF6666;
 	transition-property: background-color;
 	transition-duration: .9s;
 	opacity: 1;
@@ -149,21 +147,16 @@ a:visited {
 	font-style: normal;
 }	
 
-/* media query 
+/* media queries */
 
-article {
-	text-align: center;
-}
+@media screen and (max-width: 480px){
+	article {
+		text-align: center;
+	}
 
-nav ul,
-nav ol,
-nav ol li,
-nav ul li {
-	list-style-type: none;
-	margin: auto -4em;
-	padding: 0;
-	text-align: center;
-	line-height: 1.3em;
-	font-size: .875;
+	section:last-child {
+		text-align: left;
+	}
+
 }
 
