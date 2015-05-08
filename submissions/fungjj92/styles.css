@@ -47,29 +47,23 @@ nav ul li {
 	margin: 0;
 	padding: 0;
 	line-height: 1.4em;
-	font-size: .875;
+	font-size: 1em;
 }
 
 article {
 	margin: 5em -1.25em;
-	padding: 1em 1.5em;
+	padding: 1em 1em;
 	text-align: justify;
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	font-size: 1.5em;
-}
-
-article.list {	
-}
-
-article.map {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.6em;
 }
 
 section:first-child {
-	margin: 5em 0em 0em;
+	margin: 5em 0em 1em;
 }
 
 section:last-child {
-	margin: 3em 0em 0em;
+	margin: 3em 0em 1em;
 	padding-bottom: 4em;
 }
 
@@ -110,10 +104,15 @@ a {
 h2 {
 	display: block;
 	margin: 0em -1em;
-	padding: 0 1em;
+	padding: 0 0em;
 	font-family: LeagueGothic, Impact, "Courier New", sans-serif;
 	font-size: 2.0em;
 	text-align: center;
+}
+
+a.yelp:hover{
+	text-decoration: underline;
+	opacity: .7;
 }
 
 h3 {
@@ -133,7 +132,7 @@ section:hover {
 	opacity: 1;
 }
 
-a:hover {
+nav a:hover {
 	display: block;
 	background-color: #FF6666;
 	margin: 0 auto;
@@ -149,9 +148,23 @@ a:visited {
 
 /* media queries */
 
-@media screen and (max-width: 480px){
+
+
+@media screen and (max-width: 770px){
+	header,
+	footer {
+	padding: auto;
+	font-size: 2.5em;
+	box-shadow: 0px 7px 4px 0px rgba(0,0,0,.75);
+	}
+
+	h1 {
+	font-size: 2em;		
+	}
+
 	article {
-		text-align: center;
+		margin: 3em auto;
+		padding: auto;
 	}
 
 	section:last-child {
@@ -159,4 +172,33 @@ a:visited {
 	}
 
 }
+
+@media screen and (max-width: 390px){
+	header,
+	footer {
+	font-size: 2.25em;
+	}	
+
+	h1 {
+	font-size: 1.75em;
+	}
+
+	article {
+		text-align: center;
+	}
+
+}
+
+@media screen and (max-width: 320px){
+	header,
+	footer {
+	font-size: 2em;
+	}	
+
+	h1 {
+	font-size: 1.75em;
+	}
+
+}
+
 
