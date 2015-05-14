@@ -11,7 +11,7 @@ This is the second of three exercises, which build off of each other. You'll get
 ###Your mission, should you choose to accept it:
 
 1. Working in the same file as the previous exercise, style your document. Create a file names `styles.css` and start adding styles there, being sure to link the stylesheet to your main document.
-2. Add in a normalization stylesheet (see the Resources section below for links), tweaking it to suit your taste. If installing normalize.css, you can install directly to your project root by running `npm install --prefix ./ normalize.css` from your site root. Note that this installs the file to the `node_modules` directory within your site root.
+2. Add in a normalization stylesheet (see the Resources section below for links), tweaking it to suit your taste.
 2. Employ the box model: Use margin and padding to space your elements properly.
 3. Veritically center the text in an element that contains a single line of text, and is block-level. (Hint: Google this, and you'll find the answer relies on using `height` in conjunction with `line-height`).
 4. Use at least one of each of the following types of selectors: element, class, id, pseudo-class. Also utlize compound selectors
