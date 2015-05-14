@@ -42,3 +42,20 @@ li {
 	font-weight: bold;
 	text-decoration: none;
 }
+
+figcaption li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.html::after {
+	content: "\0000a0\0000a0 \3c\3e";
+}
+
+.css::after {
+	content: "\0000a0\0000a0 \3c\3e \0000a0 \7b\7d";
+}
+
+.responsive::after {
+	content: "\0000a0\0000a0 \3c\3e \0000a0 \7b\7d \0000a0 \1f4f1";
+}
