@@ -1,0 +1,372 @@
+@font-face {
+    font-family: Goudy;
+    src: url(GoudyStM-webfont.woff);
+}
+
+body {
+	font-size: 62.5%;
+	background-color: #ffffff;
+	padding: 0;
+}
+
+#banner {
+	display: none;
+}
+
+header {
+	width: auto;
+	text-align: center;
+}
+
+.title {
+	font-family: "Goudy", "Times New Roman", serif;
+	font-variant: small-caps;
+	text-shadow: .05em .05em #888888;
+	display: block;
+	margin: 0px;
+}
+
+header nav {
+	display: none;
+}
+
+figure {
+	margin: 0px;
+	width: 100%;
+}
+
+img {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+figcaption {
+	width: 100%;
+}
+
+figcaption ul > :first-child {
+	font-weight: bold;
+}
+
+a:link {
+	color: #336699;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #7094B8;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #14293D;
+	text-decoration: none;
+}
+
+ul, li
+ol, li {
+	list-style: none;
+	padding-left: .313em;
+	margin-bottom: .313em;
+}
+
+aside {
+	color: #ffffff;
+	background-color: #555555;
+	padding: 1em;
+	border-radius: 1em;
+	margin-left: 1em;
+	margin-bottom: 1em;
+}
+
+aside li {
+	text-align: center;
+}
+
+aside li:nth-child(odd) {
+	font-variant: small-caps;
+}
+
+aside li:nth-child(even) {
+	color: #888888;
+	padding-bottom: .313em;
+}
+
+@media screen and (max-width: 500px) {
+	
+	h1 {
+		font-size: 3em;
+	}
+
+	h2 {
+		font-size: 2em;
+	}
+	
+	figure {
+		padding-bottom: 3em;
+	}
+
+	img {
+		padding: 0px;
+		margin: 0px;
+	}
+	
+	section {
+		font-size: 1.6em;
+	}
+	
+	aside {
+		width: 66%;
+	}
+}
+
+@media screen and (min-width: 501px) {
+	
+	body {
+		padding: 1.5em;
+	}
+	
+	section {
+		border-radius: 1.5em;
+	}
+	
+	figure {
+		border-radius: .625em;
+	}
+	
+	img {
+		border-radius: .625em;
+	}
+	
+	aside {
+		float: right;
+		width: 40%;
+	}
+	
+}
+
+@media screen and (min-width: 501px) and (max-width: 800px) {
+	
+	body {
+		padding: .5em;
+	}
+	
+	h1 {
+		font-size: 3em;
+	}
+
+	h2 {
+		font-size: 2em;
+	}
+
+	figure {
+		padding: 0px;
+		padding-bottom: 3em;
+	}
+
+	img {
+		display: inline-block;
+		width: 66%;
+		padding: 0px;
+		margin: 0px;
+		padding-bottom: .2em;
+	}
+	
+	figcaption {
+		width: 33%;
+		display: inline-block;
+		vertical-align: top;
+	}
+	
+	section {
+		font-size: 1.6em;
+	}
+}
+
+@media screen and (min-width: 801px) {
+	#banner {
+		display: inline-block;
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		width: 25%;
+	}
+	
+	header {
+		margin-left: 25%;
+	}
+}
+
+@media screen and (min-width: 801px) and (max-width: 1120px) {
+	body {
+		padding: 2.5em;
+	}
+
+	h1 {
+		font-size: 3em;
+	}
+
+	h2.section {
+		font-size: 1.5em;
+		margin-bottom: .5em;
+	}
+
+	header {
+		position: relative;
+	}
+
+	.title {
+		height: 3em;
+		line-height: 3em;
+	}
+	
+	nav {
+		display: block;
+		font-size: 1.4em;
+		margin-bottom: 1.6em;
+	}
+
+	section {
+		font-size: 1.6em;
+		width: auto;
+		position: relative;
+		margin-left: 25%;
+		margin-bottom: 1.5em;
+		background-color: #eeeeee;
+		padding: 1.5em;
+		
+	}
+
+	section h2 {
+		margin-top: 0px;
+	}
+
+	footer {
+		font-size: 1.2em;
+		width: auto;
+		margin-left: 15em;
+		text-align: center;
+	}
+
+	figure {
+		display: block;
+		width: 100%;
+		padding: .625em;
+		vertical-align: top;
+		transition-property: background;
+		transition-duration: .5s;
+	    transition-timing-function: linear;
+	}
+	
+	img {
+		display: inline-block;
+		width: 66%;
+		padding-bottom: .2em;
+	}
+	
+	figcaption {
+		width: 33%;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	figure:hover {
+		background: #dddddd;
+		transition-property: background;
+		transition-duration: .5s;
+	    transition-timing-function: linear;
+	}
+
+	nav ul, nav li {
+		display: inline;
+		padding: 1em;
+	}
+}
+
+@media screen and (min-width: 1121px) {
+	
+	body {
+		padding: 2.5em;
+	}
+
+	h1 {
+		font-size: 3em;
+	}
+
+	h2.section {
+		font-size: 1.5em;
+		margin-bottom: .5em;
+	}
+
+	header {
+		position: relative;
+		margin-left: 15em;
+	}
+
+	.title {
+		height: 3em;
+		line-height: 3em;
+	}
+	
+	nav {
+		display: block;
+		font-size: 1.4em;
+		margin-bottom: 1.6em;
+	}
+
+	section {
+		font-size: 1.6em;
+		width: auto;
+		position: relative;
+		margin-left: 25%;
+		margin-bottom: 1.5em;
+		background-color: #eeeeee;
+		padding: 1.5em;
+		border-radius: 1.5em;
+	}
+
+	section h2 {
+		margin-top: 0px;
+	}
+
+	footer {
+		font-size: 1.2em;
+		width: auto;
+		margin-left: 15em;
+		text-align: center;
+	}
+
+	aside {
+		float: right;
+		width: 40%;
+	}
+
+	figure {
+		display: inline-block;
+		width: 30%;
+		padding: .625em;
+		vertical-align: top;
+		transition-property: background;
+		transition-duration: .5s;
+	    transition-timing-function: linear;
+	}
+	
+	img {
+		padding-bottom: .2em;
+	}
+
+	figure:hover {
+		background: #dddddd;
+		transition-property: background;
+		transition-duration: .5s;
+	    transition-timing-function: linear;
+	}
+
+	nav ul, nav li {
+		display: inline;
+		padding: 1em;
+	}
+
+}	
+
