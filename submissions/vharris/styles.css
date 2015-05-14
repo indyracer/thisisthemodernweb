@@ -1,0 +1,111 @@
+/*  todo:
+
+	make main wider after screen 
+	size is lower than px. padding 
+	becomes ugly after 880px. 
+	increase font at larger 
+	resolutions
+*/
+
+@font-face {
+	font-family:inconsolata;
+	src: url(http://www.levien.com/type/myfonts/Inconsolata.otf);
+}
+
+body {
+	background-color:#F2F0EB;
+}
+
+
+/*navigation*/
+nav {
+	font-size:14px;
+	font-weight:900;
+	width:66%;
+	margin:0 auto;
+	border-bottom:2px solid #111;
+	text-align:right;
+}
+li {
+	list-style-type:none;
+	display:inline;
+}
+ul {
+	padding:0;
+	margin-bottom:4px;
+}
+
+/*headings*/
+h1 {
+	text-align:right;
+	margin:0;
+	font-family:monospace;
+}
+h2 {
+	margin-bottom:5px;
+	margin-top:10px;
+	font-family:monospace;
+}
+
+/*main*/
+main {
+	margin-left:auto;
+	margin-right:auto;
+	width:60%;
+}
+main article {
+	border-bottom:2px solid #111;
+}
+main p {
+	text-align:justify;
+	padding:1px 0 14px;
+	margin:0;
+}
+main figure {
+	margin:0;
+}
+main figcaption {
+	text-align:center;
+	padding-top:2px;
+	padding-bottom:10px;
+	font-style:italic;
+}
+main img {
+	display:block;
+	max-width:100%;
+	width:100%;
+	margin-left:auto; 
+	margin-right:auto;
+	float:left;
+}
+aside.glossterms {
+	text-align:right;
+	font-family:inconsolata;
+	font-size:.9em;
+}
+footer {
+	width:60%;
+	margin:8px auto 4px auto;
+	text-align:center;
+}
+
+
+/*a*/
+a:link {
+    text-decoration: none;
+    color:#06000E;
+}
+a:visited {
+    text-decoration: none;
+    color:#06000E;
+
+}
+a:hover {
+    text-decoration: underline;
+    color:#06000E;
+
+}
+a:active {
+    text-decoration: underline;
+    color:#06000E;
+}
