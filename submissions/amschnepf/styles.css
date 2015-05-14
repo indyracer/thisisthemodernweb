@@ -1,0 +1,20 @@
+
+
+h1 {
+	font-size: 72px;
+	color: white;
+}
+
+h2 {
+	font-size: 52px;
+	color: firebrick;
+}
+
+header {
+	background-color: orange;
+	text-align: center;
+}
+
+p{
+	font-size:20px;
+}
