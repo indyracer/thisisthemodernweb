@@ -13,18 +13,20 @@ If you're already comfortable with Git and have a local web dev environment set 
 	sudo ln -s /Applications/TextMate.app/Contents/Resources/mate /usr/local/bin/
 	```
 	If you're using Sublime, follow [these instructions](https://gist.github.com/artero/1236170). You can now open your editor by simply typing `mate` or `sublime` at the command line (or, use open a file with `mate file.txt`). Try it! If it doesn't work, then `echo $PATH` and make sure you see `/usr/local/bin` in the list of directories. We'll use `mate` in what follows, so if you're using Sublime, make the appropriate substitutions in sample commands.
-5. Install [MAMP](https://www.mamp.info/en/)
-6. Link MAMP's docroot to your Dropbox directory, for both easy access and backup:
+5. [Dropbox](https://www.dropbox.com). Sign in to your Dropbox account through the app and you'll see a Dropbox icon appear in your menu bar (if you're on a Mac, that is; the menu bar is the right-hand side of the gray bar at the top of your screen).
+6. Install [MAMP](https://www.mamp.info/en/).
+7. Link MAMP's docroot to your Dropbox directory, for both easy access and backup:
 
 	```
 	ln -s /Applications/MAMP/htdocs ~/Dropbox
 	```
-7. Link MAMP's database directory to your Dropbox directory, for backup:
+8. Link MAMP's database directory to your Dropbox directory, for backup:
+
 	```
 	ln -s /Applications/MAMP/db ~/Dropbox
 	```
-8. In the terminal, navigate to `~/Dropbox/htdocs` and create an `index.html` file (use `mate index.html` from the command line). Put a simle message there, e.g. `<h1>Success!</h1>`.
-9. Fire up MAMP and point your browser to [http://localhost:8888](http://localhost:8888). You should see your message.
+9. In the terminal, navigate to `~/Dropbox/htdocs` and create an `index.html` file (use `mate index.html` from the command line). Put a simle message there, e.g. `<h1>Success!</h1>`.
+10. Fire up MAMP and point your browser to [http://localhost:8888](http://localhost:8888). You should see your message.
 
 ##Setting up the project
 
