@@ -2,13 +2,21 @@
 
 
 body {
+margin: 30px 10px 10px 20px;
 
 font-family: 'Inconsolata', sans-serif;
 color: white;
-line-height: 1.2;   font-size: 12pt;
+font-size: 12pt;
 background: url("images/ghostBack.jpg") repeat center top;
+background-color: black;
+line-height: 150%;
 }
+
 h2 {
 	color:#7d7474;
 	font-family: 'Inconsolata', sans-serif;
+	font-weight:bold;
 	}
+
+	
+	
