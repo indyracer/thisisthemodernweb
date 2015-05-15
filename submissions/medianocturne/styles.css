@@ -1,8 +1,14 @@
+
+
+
 body {
 
-font-family: 'Lato', sans-serif;
-line-height: 1.2;   font-size: 12pt
-background-image: url("http://www.nohr.dk/blog/wp-content/uploads/background-textured-green-gonna-need-bit-more-detail-than-that-wallpaper.jpg"
-
+font-family: 'Inconsolata', sans-serif;
+color: white;
+line-height: 1.2;   font-size: 12pt;
+background: url("images/ghostBack.jpg") repeat center top;
 }
-h2 {color:rgba(0, 0, 255, 0.53);}
+h2 {
+	color:#7d7474;
+	font-family: 'Inconsolata', sans-serif;
+	}
