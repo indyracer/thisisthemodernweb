@@ -1,0 +1,310 @@
+/* 
+	styles.css for ReBootU - Web I example project
+	Tuesday, May 5, 2015
+	by James C. Kane
+*/
+
+/*
+	GENERAL  GENERAL  GENERAL
+	GENERAL  GENERAL  GENERAL
+	GENERAL  GENERAL  GENERAL
+*/
+@font-face {
+    font-family: Fanwood;
+    src: url(fanwood/webfonts/fanwood_text-webfont.woff);
+}
+
+body {
+	font-size: 62.5%;
+}
+
+
+/*
+	NAVIGATION  NAVIGATION  NAVIGATION  
+	NAVIGATION  NAVIGATION  NAVIGATION  
+	NAVIGATION  NAVIGATION  NAVIGATION  
+*/
+nav {
+	font-size: 1.6em;
+	padding-bottom: 1em;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li {
+	margin: 0 1em 0 0;
+	display: inline-block;
+	font-style: italic;
+}
+
+nav ul li a {
+	color: white;
+}
+
+
+/*
+	LINKS-IMGS  LINKS-IMGS  LINKS-IMGS  
+	LINKS-IMGS  LINKS-IMGS  LINKS-IMGS  
+	LINKS-IMGS  LINKS-IMGS  LINKS-IMGS  
+*/
+a {
+	color: gray;
+	text-decoration: none;
+	-webkit-transition: all .5s ease-in; /* Safari */
+    transition: all .5s ease-in;
+}
+
+a:hover {
+	color: gray;
+}
+
+figure {
+	float: right;
+	padding: 1em;
+	margin: .5em 1em;
+}
+
+figure img {
+	display: block;
+	border-radius: 10px;
+}
+
+figure figcaption {
+	display: inline-block;
+	float: none;
+	padding-top: 10px;
+	font-style: italic;
+}
+
+
+/*
+	HEADERS  HEADERS  HEADERS  
+	HEADERS  HEADERS  HEADERS  
+	HEADERS  HEADERS  HEADERS  
+*/
+header {
+	height: 100%;
+	background: url(images/cpheader.jpg) no-repeat fixed left top;
+	background-size: cover;
+	color: white;
+	box-shadow: 0px 5px 5px #888888;
+	padding-left: 4em;
+}
+
+header > * {
+	margin: 0;
+	opacity: .75;
+}
+
+h1 {
+	font-size: 7em;
+	margin: 0;
+	padding-top: 4.5em;
+	width: 70%;
+}
+
+h2 {
+	font-size: 2.75em;
+	margin-bottom: 1em;
+	font-weight: normal;
+}
+
+h4 {
+	margin-top: 0;
+}
+
+h5 {
+	font-weight: normal;
+	position: relative;
+	font-size: 1.6em;
+}
+
+/*
+	CONTENT  CONTENT  CONTENT  
+	CONTENT  CONTENT  CONTENT  
+	CONTENT  CONTENT  CONTENT  
+*/
+article {
+	margin: 2em;
+	font-family: Fanwood;
+	font-size: 1.8em;
+}
+
+aside {
+	float: right;
+	width: 33.33333333%;
+	padding: 1em;
+	margin: .5em 2em 1em 2em;
+	background-color: gray;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #888888;
+	opacity: .9;
+}
+
+aside a {
+	color: white;
+}
+
+footer {
+	font-size: 12px;
+	float: right;
+}
+
+iframe#twitter-widget-0.twitter-tweet.twitter-tweet-rendered {
+	float: right;
+	margin: 1em 2em !important;
+	width: 30% !important;
+}
+
+.credits {
+	background-color: gray;
+}
+
+
+/* 
+	MEDIA QUERIES   MEDIA QUERIES   MEDIA QUERIES 
+	MEDIA QUERIES   MEDIA QUERIES   MEDIA QUERIES 
+	MEDIA QUERIES   MEDIA QUERIES   MEDIA QUERIES 
+*/
+@media screen and (max-width: 800px) {
+	
+	body {
+		font-size: 56%;
+	}
+
+	article {
+		margin: 2em 1.5em;
+	}
+
+	h1 {
+		width: 100%;
+	}
+
+	h2 {
+		width: 100%;
+		font-size: 2.25em;
+	}
+
+	header {
+		background-position: -12em 0em;
+		padding-left: 3em;
+	}
+
+}
+
+@media screen and (max-width: 600px) {
+
+	body {
+		font-size: 54.5%;
+	}
+
+	header {
+		background-position: -24em 0em;
+		padding-left: 2em;
+	}
+
+	article {
+		margin: 1.5em 1em;
+	}
+
+	figure {
+		float: none;
+		margin: 0 auto;
+	}
+
+	figure img {
+		display: inline-block;
+	}
+
+	h1 {
+		font-size: 6em;
+		padding-top: 6em;
+	}
+
+	
+	h2 {
+		width: 100%;
+		font-size: 1.85em;
+	}
+
+	aside {
+		float: none;
+		display: block;
+		width: 80%;
+		padding: auto;
+		padding-bottom: 2em;
+		margin-top: 1.5em;
+		margin-bottom: 1.5em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	iframe#twitter-widget-0.twitter-tweet.twitter-tweet-rendered {
+		float: none;
+		margin: 1.75em auto !important;
+		width: 80% !important;
+	}
+
+	figure {
+		float: none;
+		display: inline-block;
+		text-align: center;
+	}
+
+	figure img {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+
+@media screen and (max-width: 480px) {
+
+	body {
+		font-size: 50%;
+	}
+
+	header {
+		background-position: -39em 0em;
+	}
+
+	figure img {
+		width: 95%;
+	}
+
+	h1 {
+		width: 100%;
+	}
+
+	nav ul li {
+		display: block;
+	}
+}
+
+
+/* Smartphone in portrait mode */
+@media screen and (max-width: 335px) {
+
+	body {
+		font-size: 50%;
+	}
+
+	header {
+		background-position: -48em -8em;
+		padding-left: 2em;
+	}
+
+	h1 {
+		font-size: 4em;
+	}
+
+	figure img {
+		width: 100%;
+		display: inline;
+		margin: auto;
+	}
+
+}
+
