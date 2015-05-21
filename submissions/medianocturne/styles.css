@@ -1,0 +1,85 @@
+
+
+.center {
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	
+	
+}
+
+
+head {
+	margin: 30px 30px 30px 30px;
+}
+
+h1 {
+	font-family: 'Rock Salt', cursive;
+	font-size: 3em;
+	margin-left: 90px;
+	}
+
+.images {
+	position: static;
+	
+	margin: 30px 30px 30px 30px;
+	box-shadow: inset 2px 2px 2px 13px rgba(12, 11, 11, 0.85) ; 
+	transition: opacity 2s;
+	
+	
+}
+.images:hover{
+	opacity: 0;
+}
+
+main {
+	position: absolute;
+	margin: 30px 30px 30px 32px;
+	width: 994px;
+	
+}
+
+section {
+	background-color: black;
+	width: 994px;
+	padding-top: 5px;
+	margin-bottom: 5px;
+}
+p {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	text-indent: 2em;
+}
+
+
+body {
+margin: 30px 61px 30px 0px;
+font-family: 'Inconsolata', sans-serif;
+color: white;
+font-size: 12pt;
+background: url("images/ghostBack.jpg") repeat center top;
+background-color: black;
+line-height: 150%;
+}
+
+h2 {
+	color:#7d7474;
+	font-family: 'Inconsolata', sans-serif;
+	font-size: 2em;
+	font-weight:bold;
+	
+	}
+
+header{
+	margin-left: 15px;
+	margin-top: 10px;
+}
+
+aside{
+	margin: 20px 20px 20px 2px;
+}
+
+	
+
