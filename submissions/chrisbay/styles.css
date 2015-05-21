@@ -52,12 +52,12 @@ nav ul {
 
 nav ul li {
 	display: inline-block;
-	margin-right: 15px;
-	font-size: 12px;
+	margin-right: 1em;
+	font-size: 0.75em;
 }
 
 p {
-	padding: 20px;
+	padding: 1.25em;
 }
 
 figure {
@@ -72,7 +72,7 @@ figcaption {
 
 footer {
 	text-align: center;
-	padding: 30px;
+	padding: 3em;
 }
 
 footer p {
@@ -84,14 +84,13 @@ img {
 	max-width: 100%;
 }
 
-/* media query */
-@media all and (max-width: 480px) {
+@media screen and (max-width: 680px) {
+	nav ul li {
+		margin: 1em 0;
+		display: block;
+		font-size: 1em;
+	}
 	body {
 		font-size: 50%;
-	}
-	
-	nav ul li {
-		display: block;
-		line-height: 1.5em;
 	}
 }
