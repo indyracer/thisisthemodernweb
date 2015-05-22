@@ -8,33 +8,40 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
 		<title>Breweries of St. Louis</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<link rel="stylesheet" type="text/css" href="normalize.css">
+		<link href='http://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Questrial|Indie+Flower|Montserrat' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Questrial|UnifrakturCook:700|Montserrat' rel='stylesheet' type='text/css'>		
 	</head>
 		<body>
-			<header>
+			<header id="header">
 				<h1>Breweries of St. Louis</h1>
-				<p>St. Louis is awesome. Beer is awesome. Beer that's made in St. Louis...even more awesome! Here you will find a little history of some of the breweries that call St. Louis home, as well as some of the beers that they make. Have fun and enjoy the wonderful world of beer!</p>
-			</header>
+				<p class="p1">St. Louis is awesome. Beer is awesome. Beer that's made in St. Louis...even more awesome! Here you will find a little history of some of the breweries that call St. Louis home, as well as some of the beers that they make. Have fun and enjoy the wonderful world of beer!</p>
 			<nav>
-				<a href="#anheuser-busch">Anheuser-Busch</a>
-				<a href="#griesedieck">Griesedieck Brothers Brewery</a>
-				<a href="#perennial">Perennial Artisan Ales</a>
-				<a href="#chestnut">Urban Chestnut Brewing Company</a>
-				<a href="#4hands">4 Hands Brewing Company</a>
+				<ul id="links">
+					<li><a href="#anheuser-busch">Anheuser-Busch</a></li>
+					<li><a href="#griesedieck">Griesedieck Brothers Brewery</a></li>
+					<li><a href="#perennial">Perennial Artisan Ales</a></li>
+					<li><a href="#chestnut">Urban Chestnut Brewing Company</a></li>
+					<li><a href="#4hands">4 Hands Brewing Company</a></li>
+				</ul>
 			</nav>
+			</header>
 			<main>
 				<article>
 					<section>
 						<a id="anheuser-busch"></a>
 							<h2>Anheuser-Busch</h2>
-							<p>Eberhard Anheuser left his home in Germany in 1843 to come to America. He eventually settled in St. Louis and became a part owner in the 'Bavarian Brewery'. By 1860, he had bought out the other investors and renamed the brewery E. Anheuser &amp; Co. Adolphus Busch met Anheuser while working for a brewing supply company. In 1861, Adolphus married Anheuser's daughter, and soon after began to work at the brewery. The brewery was renamed the 'Anheuser-Busch Brewing Association' in 1879 after Busch bought half owndership in the brewery. </p>
 							<figure>
-								<img src="images/Anheuser.jpg" alt="Anheuser"/>
+								<img src="images/anheuser2.jpg" alt="Anheuser" class="anheuser"/>
 								<figcaption>Eberhard Anheuser</figcaption>
 							</figure>
 							<figure>
-								<img src="images/abusch.jpg" alt="Busch"/>
+								<img src="images/abusch.jpg" alt="Busch" class="busch"/>
 								<figcaption>Adolphus Busch</figcaption>
 							</figure>
+							<p class="ab">Eberhard Anheuser left his home in Germany in 1843 to come to America. He eventually settled in St. Louis and became a part owner in the 'Bavarian Brewery'. By 1860, he had bought out the other investors and renamed the brewery E. Anheuser &amp; Co. Adolphus Busch met Anheuser while working for a brewing supply company. In 1861, Adolphus married Anheuser's daughter, and soon after began to work at the brewery. The brewery was renamed the 'Anheuser-Busch Brewing Association' in 1879 after Busch bought half owndership in the brewery. </p>
 
 							<aside>One of the brewery's oldest and most well-known beer brands is 'Budweiser', which is still sold in high volume today.</aside>
 
@@ -42,35 +49,36 @@
 					<section>
 						<a id="griesedieck"></a>
 							<h2>Griesedieck Brothers Brewery</h2>
-							<p>Anto, Franz, and Heinrich Griesedieck moved from Germany to St. Louis in 1870 with their great grandfather's beer recipes. Up until the 1940s, Griesedieck Brothers beer was one of Anheuser Busch's biggest competitors. They had the sponsorship rights for St. Louis Cardinals baseball games until Anheuser Busch bought the team in 1952. Over the next 25 years, their sales gradually declined until they had to close their doors in 1977. Griesedieck Brothers Beer was reintroduced in 2002 by Raymond Griesedieck, son of the last president of the company.</p>
 							<figure>
-								<img src="images/gb-glass.jpg" alt="Glass"/>
+								<img src="images/gb_bottle.jpg" alt="Glass" class="glass"/>
 							</figure>
 							<figure>
-								<img src="images/gb-henry.jpg" alt="Henry"/>
+								<img src="images/gb-henry.jpg" alt="Henry" class="henry"/>
 								<figcaption>Henry Griesedieck</figcaption>
 							</figure>
+							<p class="grdk">Anton, Franz, and Heinrich Griesedieck moved from Germany to St. Louis in 1870 with their great grandfather's beer recipes. Up until the 1940s, Griesedieck Brothers beer was one of Anheuser Busch's biggest competitors. They had the sponsorship rights for St. Louis Cardinals baseball games until Anheuser Busch bought the team in 1952. Over the next 25 years, their sales gradually declined until they had to close their doors in 1977. Griesedieck Brothers Beer was reintroduced in 2002 by Raymond Griesedieck, son of the last president of the company.</p>
+
 							<aside>They currently make 'Premium Golden Pilsener' and 'Unfiltered Bavarian-Style Wheat'.</aside>
 
 					</section>
 					<section>
 						<a id="perennial"></a>
 							<h2>Perennial Artisan Ales</h2>
-							<p>Started in 2011 Phil Wymore, Emily Wymore, and Cory King, Perennial Artisan Ales is a brewery that brews beer for the adventurous craft beer drinker by focusing on hand-crafted, small batches of beer. Their beers are largely influenced by Belgian and American craft styles, but also include fruits, spices, and wild yeast strains that extend their beers beyond traditional categories and evoke interesting new flavors.</p>
 							<figure>
-								<img src="images/perennial_glass.jpg" alt="Perennial"/>
+								<img src="images/perennial_glass.jpg" alt="Perennial" class="perennial"/>
 							</figure>
-
+							<p class="artisan">Started in 2011 Phil Wymore, Emily Wymore, and Cory King, Perennial Artisan Ales is a brewery that brews beer for the adventurous craft beer drinker by focusing on hand-crafted, small batches of beer. Their beers are largely influenced by Belgian and American craft styles, but also include fruits, spices, and wild yeast strains that extend their beers beyond traditional categories and evoke interesting new flavors.</p>
+							
 							<aside>Their three flagship beers are a Belgian-Style Ale, a dry-hopped Belgian Pale Ale, and a Belgian-style Saison brewed with Chamomile flowers.</aside>
 
 					</section>
 					<section>
 						<a id="chestnut"></a>
 							<h2>Urban Chestnut Brewing Company</h2>
-							<p>Founder and Head Brewmaster, Florian Kuplent operates under a unique philosophy of brewing that he calls 'Beer Divergency', which is an approach that contributes to the 'revolution' of craft beer with artisanal creations of modern American beers, and also pays 'reverence' to the tradition and heritage of beer.</p>
 							<figure>
-								<img src="images/ucbc_1.jpg" alt="UCBC"/>
+								<img src="images/ucbc_1.jpg" alt="UCBC" class="ucbc"/>
 							</figure>
+							<p class="urban">Founder and Head Brewmaster, Florian Kuplent operates under a unique philosophy of brewing that he calls 'Beer Divergency', which is an approach that contributes to the 'revolution' of craft beer with artisanal creations of modern American beers, and also pays 'reverence' to the tradition and heritage of beer.</p>
 
 							<aside>A few beers you will find in the 'revolution' series are 'Hopfen Bavarian IPA', 'SLIPILS Imperial Pilsner', and 'Winged Nut Chestnut Ale'. A few beers in their 'reverence' series are 'Schnickelfritz Bavarian Weissbier', 'Schlossturm Dusseldorf Altbier', and 'Maximilian Weizenbock'.</aside>
 
@@ -78,18 +86,18 @@
 					<section>
 						<a id="4hands"></a>
 							<h2>4 Hands Brewing Company</h2>
-							<p>The 4 Hands Brewery is located in the Lasalle Park neighborhood and provides a well-rounded portfolio of beers. They have a 20,000 square foot brewing facility, 3,000 of which is dedicated to their barrell-aging program. They soon have a souring program as well. </p>
 							<figure>
-								<img src="images/4hands_1.jpg" alt="4 Hands" height="270" width="400"/>
+								<img src="images/4hands_1.jpg" alt="4 Hands" class="4hands" height="200" width="350"/>
 							</figure>
+							<p class="hands">The 4 Hands Brewery is located in the Lasalle Park neighborhood and provides a well-rounded portfolio of beers. They have a 20,000 square foot brewing facility, 3,000 of which is dedicated to their barrell-aging program. They soon have a souring program as well.</p>
+
 							<aside>Some of the beers you will find in their arsenal are 'Single Speed American Blonde Ale', 'Reprise Centennial Red Ale', 'Cast Iron Oatmeal Brown Ale'.</aside>
 					
 					</section>
 				</article>
 			</main>
-			<footer>
-				<p>Brewery information received from their respective websites</p>
-				<p>For more info, select a brewery from drop-down menu</p>
+			<footer id="footer">
+				<p class="disclaimer">Brewery information received from their respective websites. For more info, select a brewery from drop-down menu.</p>				
 				<select onChange="window.location.href=this.value">
 					<option value="placeholder">Select</option>
 					<option value="http://www.anheuser-busch.com">Anheuser-Busch</option>
