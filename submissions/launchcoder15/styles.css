@@ -5,12 +5,6 @@
 }
 
 @font-face {
-	font-family: 'Indie Flower', cursive;
-	font-style: normal;
-	src: url(http://fonts.googleapis.com/css?family=Questrial|Indie+Flower|Montserrat);
-}
-
-@font-face {
 	font-family: 'UnifrakturCook', cursive;
 	font-style: normal;
 	src: url(http://fonts.googleapis.com/css?family=Questrial|UnifrakturCook:700|Montserrat);
@@ -31,12 +25,13 @@ a {
 }
 /* center text */
 h1 {
-	width: 400px;
+	width: 30%;
+	max-width: 350px;
 	float: center;
 	text-align: center;
 	font-family: 'UnifrakturCook', cursive; 
 	color: #804224;
-	font-size: 50px;
+	font-size: 12px;
 	margin-left: auto;
 	margin-right: auto;
 	background: #F1FFF7;
@@ -47,10 +42,10 @@ h1 {
 
 nav {
 	font-family: 'Montserrat', sans-serif;
-	width: 1050px;
+	width: 95%;
+	max-width: 1050px;
 	font-size: 14px;
 	height: 50px;
-	margin-right: 50px;
 	text-align: center;
     padding: 10px 10px 10px 10px;
     background-color: #F1FFF7;
@@ -58,10 +53,13 @@ nav {
     border-radius: 5px;
     margin-top: 5px;
     margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #links {
 	padding: 8px;
+	line-height: 10px;
 }
 
 #links > li {
@@ -82,7 +80,8 @@ nav {
 h2 {
 	margin-left: 20px;
 	text-align: center;
-	width: 350px;
+	width: 32%;
+	max-width: 350px;
 	padding: 5px 20px 5px 20px;
 	margin-bottom: 5px;
 	font-family: 'UnifrakturCook', cursive; 
@@ -105,7 +104,8 @@ body {
 p.p1 {
 	color: CadetBlue;
 	text-align: center;
-	width: 400px;
+	width: 40%;
+	max-width: 400px;
 	margin-left: auto;
 	margin-right: auto;
 	background: #F1FFF7;
@@ -119,7 +119,8 @@ p {
 	font-family: 'Questrial', sans-serif;
 	color: CadetBlue;
 	text-align: center;
-	width: 350px;
+	width: 32%;
+	max-width: 350px;
 	margin-left: 20px;
 	background: #F1FFF7;
     padding: 15px 20px 15px 20px;
@@ -132,7 +133,8 @@ aside {
 	font-family: 'Questrial', sans-serif;
 	color: gray;
 	text-align: center;
-	width: 350px;
+	width: 32%;
+	max-width: 350px;
 	margin-left: 20px;
 	background: #F1FFF7;
     padding: 15px 20px 15px 20px;
@@ -196,7 +198,9 @@ figcaption {
 p.disclaimer {
 	color: gray;
 	text-align: center;
-	width: 400px;
+	font-size: 12px;
+	width: 40%;
+	max-width: 400px;
 	margin-left: auto;
 	margin-right: auto;
 	background: #F1FFF7;
