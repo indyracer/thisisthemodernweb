@@ -3,6 +3,8 @@
 body {
 	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	margin: 0 auto;
 }
 
 @font-face{
@@ -10,19 +12,23 @@ body {
 	src: url(font/CAE.TTF);
 }
 
-/* 	h1 = 2015 Reading List  */
+/* @media (max-width: 22em){
+	font-size: .9em;
+	padding: 1.5em;
+} */
+
+			/* 	h1 = 2015 Reading List  */
 h1 {
 	font-family: myFirstFont;
-	font-size: 72px;
+	font-size: 4.5em;
 	color: white;
 	background-color: #434952;
 }
-
-/* Months */ 
+ 
 
 h3 {
 	font-family: myFirstFont;
-	font-size: 56px;
+	font-size: 3.5em;
 	color: white;
 	
 }
@@ -30,7 +36,7 @@ h3 {
 header {
 	border: 10px solid #434952;
 	background-color: orange;
-	padding-top: 170px;
+	padding-top: 10.625em;
 	background-image: url('images/books.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -38,10 +44,10 @@ header {
 }
 
 
-/* Months */
+			/* Months */
 h4 {
 	font-family: myFirstFont;
-	font-size: 48px;
+	font-size: 3em;
 	background-color: tomato;
 	
 }
@@ -51,8 +57,8 @@ h4 {
 ul {
 	list-style-type: none;
 	text-align: center;
-	padding: 5px 30px 5px 20px;
-	margin: 20px;
+	padding: .313em 1.875em .313em 1.250em;
+	margin: 1.250em;
 } 
 
 img {
@@ -67,45 +73,45 @@ img {
 .nav {
 	
 	background-color: tomato;
-	padding: 10px;
-	border: 5px solid #434952;
+	padding: 0.625em;
+	border: .313em solid #434952;
 }
 
 .reading {
 	color: white;
 	background-color: #434952;
-	padding: 10px;
-	margin: 10px;
+	padding: .625em;
+	margin: .625em;
 	text-align: right;
 }
 
 .current{
-	padding: 10px;
-	margin: 10px;
-	border-radius: 100px;
-	border: 2px solid tomato;
+	padding: .625em;
+	margin: .625em;
+	border-radius: 6.250em;
+	border: .125em solid tomato;
 }
 
 .month {
-	border: 3px solid tomato;
-	margin: 20px;
+	border: .188em solid tomato;
+	margin: 1.250em;
 	
 }
 
 .title {
-	font-size: 28px;
+	font-size: 1.750em;
 	font-weight: bold;
 	text-decoration: underline;
 	
 }
 
 .image{
-	border-radius: 20px;
-	border: 5px dotted #424952;
-	padding: 15px;
-	width: 200px;
-	height: 475px;
-	margin: 10px; 
+	border-radius: 1.250em;
+	border: .313em dotted #424952;
+	padding: .938em;
+	width: 12.500em;
+	height: 29.688em;
+	margin: .625em; 
 }
 
 .swapMe img{
@@ -131,8 +137,8 @@ img {
 }
 
 .review{
-	padding: 75px 0px 75px;
-	margin: 0px 10px 0px;
+	padding: 4.688em 0em 4.688em;
+	margin: 0em .625em 0em;
 }
 
 .link:hover{
@@ -140,20 +146,24 @@ img {
 }
 
 .check{
-	font-size: 24px;
+	font-size: 1.500em;
+}
+
+.hide{
+	display:none;
 }
 
 
 /* ----------------------------ID Selectors ----------------------------*/
 
 #main-content{
-	margin: 0px 150px;
+	margin: 0em ;
 }
 
 #main-footer {
-	padding-top: 60px;
-	padding-bottom: 60px;
-	border-bottom: solid 10px #434952;
+	padding-top: 3.750em;
+	padding-bottom: 3.750em;
+	border-bottom: solid .625em #434952;
 }
 
 /* ---------------These selectors affect the links on the page ---------------------*/
@@ -171,15 +181,37 @@ a:visited {
 
 .nav {
 	float: left;
-	margin: -50px;
+	margin: -3.25em;
 	border-radius: 50%;
-	width: 200px;
-	height: 300px;
+	width: 12.500em;
+	height: 18.750em;
 }
 
 .image{
 	width: 46.5%;
 	float: left;
+}
+
+/*  --------------------------- Media Queries -------------------------- */
+
+@media only screen and (max-width: 700px){
+	
+	
+	img{
+		max-width: 100%;
+		max-height: 100%;
+	}
+	
+	.swapMe, .image{
+		display: none;
+	}
+	
+	.hide{
+		display: inline;
+		max-width: 75%;
+		max-height: 75%;
+	}
+
 }
 
 
