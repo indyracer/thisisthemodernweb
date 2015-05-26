@@ -1,0 +1,210 @@
+@font-face {
+	font-family: 'Questrial', sans-serif;
+	font-style: normal;
+	src: url(http://fonts.googleapis.com/css?family=Questrial);
+}
+
+@font-face {
+	font-family: 'UnifrakturCook', cursive;
+	font-style: normal;
+	src: url(http://fonts.googleapis.com/css?family=Questrial|UnifrakturCook:700|Montserrat);
+}
+
+/* change link color to white*/
+a {
+	color: CadetBlue;
+	-webkit-transition: .5s;
+	-o-transition: .5s;
+  	-ms-transition: .5s;
+  	-moz-transition: .5s;
+	transition-property: .5s;
+}
+
+#header {
+	height: 300px;
+}
+/* center text */
+h1 {
+	width: 30%;
+	max-width: 350px;
+	float: center;
+	text-align: center;
+	font-family: 'UnifrakturCook', cursive; 
+	color: #804224;
+	font-size: 12px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #F1FFF7;
+    padding: 15px 20px 15px 20px;
+    border: 1px solid #C9F0DD;
+    border-radius: 5px;
+}
+
+nav {
+	font-family: 'Montserrat', sans-serif;
+	width: 95%;
+	max-width: 1050px;
+	font-size: 14px;
+	height: 50px;
+	text-align: center;
+    padding: 10px 10px 10px 10px;
+    background-color: #F1FFF7;
+    border: 1px solid #C9F0DD;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#links {
+	padding: 8px;
+	line-height: 10px;
+}
+
+#links > li {
+	display: inline;
+	zoom: 1;
+}
+
+#links > li > a {
+	text-decoration: none;
+	padding: 3px 8px;
+}
+
+#links > li > a:hover {
+	color: Crimson;
+}
+
+/* position heading */
+h2 {
+	margin-left: 20px;
+	text-align: center;
+	width: 32%;
+	max-width: 350px;
+	padding: 5px 20px 5px 20px;
+	margin-bottom: 5px;
+	font-family: 'UnifrakturCook', cursive; 
+	color: #804224;
+	font-size: 30px;
+	background: #F1FFF7;
+    border: 1px solid #C9F0DD;
+    border-radius: 5px;
+}
+
+/* style font and set background */
+body {
+	background-image: url("http://www.kxro.com/wp-content/uploads/2015/01/dark-wood-plank-texture-36rzpe5v.jpg");
+	background-attachment: fixed;
+	width: 100%;
+	padding: 20px;
+	margin-top: 0;
+}
+
+p.p1 {
+	color: CadetBlue;
+	text-align: center;
+	width: 40%;
+	max-width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #F1FFF7;
+    padding: 15px 20px 15px 20px;
+    border: 1px solid #C9F0DD;
+    border-radius: 5px;
+}
+
+/* center text */
+p {
+	font-family: 'Questrial', sans-serif;
+	color: CadetBlue;
+	text-align: center;
+	width: 32%;
+	max-width: 350px;
+	margin-left: 20px;
+	background: #F1FFF7;
+    padding: 15px 20px 15px 20px;
+    border: 1px solid #C9F0DD;
+    border-radius: 5px;
+    margin-top: 5px; 
+}
+
+aside {
+	font-family: 'Questrial', sans-serif;
+	color: gray;
+	text-align: center;
+	width: 32%;
+	max-width: 350px;
+	margin-left: 20px;
+	background: #F1FFF7;
+    padding: 15px 20px 15px 20px;
+    border: 1px solid #C9F0DD;
+    border-radius: 5px;
+}
+
+/* position images */
+figure {
+	float: right;
+	margin-left: auto;
+	margin-right: auto;
+	background: #F1FFF7;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #C9F0DD;
+    border-radius: 5px;
+}
+
+figcaption {
+	text-align: center;
+	font-family: 'Questrial', sans-serif;
+	color: gray;
+}
+
+.anheuser {
+	height: 300px;
+
+}
+
+.busch {
+	height: 300px;
+}
+
+.glass {
+	height: 300px;
+}
+
+.henry {
+	height: 300px;
+}
+
+.perennial {
+	float: right;
+	width: 300px;
+}
+
+.4hands {
+	margin-right: 70px;
+	height: 50px;
+	width: 200px;
+}
+
+#footer {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+    padding: 15px 20px 15px 20px;
+}
+
+p.disclaimer {
+	color: gray;
+	text-align: center;
+	font-size: 12px;
+	width: 40%;
+	max-width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #F1FFF7;
+    padding: 15px 20px 15px 20px;
+    border: 1px solid #C9F0DD;
+    border-radius: 5px;
+}
