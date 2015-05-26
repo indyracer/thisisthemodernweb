@@ -3,55 +3,69 @@
   <head>
     <meta charset="utf-8">
  
-    <!--<link rel=“stylesheet” href=“styles.css”>-->
+    <!--<link rel=“stylesheet” type="text/css" href=“styles.css”>-->
 
     <style>
+
 
     @font-face {
       font-family: cool;
       src: url(1942.ttf);
-    
-    }
+  }
 
     @font-face {
       font-family: champion;
       src: url(underwood_champion.ttf);
-    }
+      }
+      
+      main {
+        padding-top: 10.95em; /*175px*/
 
-      body {
+      }
+
+      nav {
+        text-align:center;
+      }
+    
+
+      body { 
         font-family: champion;
-        font-size 100%;
-        background-image: url("images/resize/Laguna%20de%20Apoyo,%20Nicaragua");
+        font-size: 100%;
+        /*background-image: url("images/resize/Laguna%20de%20Apoyo,%20Nicaragua");*/
+        background-image: url("images/strat%20profile.jpg");
         background-repeat: no-repeat;
         background-attachment: fixed;
-        background-size: 30%;
+        background-size: 50%;
         background-position: right;
         background-color: #CFDCE1;
 
-        
-        
-      }
-      section {
 
-        
-        margin-left: 60px;
-        margin-right: 0px;
-        margin-top: 200px;
-        margin-bottom: 50px;
-        padding-bottom: 50px;
-        padding-top: 20px;
-        width: 900px;
+  
+      }
+
+      section {
+        margin-left: 4.5em; /*60px*/
+        margin-right: 0;
+        margin-top: 12.5em; /*200px*/
+        margin-bottom: 3.125em; /*50px*/
+        padding-bottom: 3.125em; /*50px*/
+        padding-top: 1em; /*20px*/
+        max-width: 55.25em; /*900px*/
+        width: 100%;
         text-align: center;
         background-color: rgba(255, 102, 102, .5);
-        box-shadow: 5px 5px black;
-        border-radius: 20px;
+        box-shadow: .3125em .3125em black; /*5px 5px*/;
+        border-radius: 1.25em; /*20px*/
         border: solid black;
+        /*vertical-align: center;
+        height: 43.75em; /*700px*/
+
 
 
       }
 
       header {
-        height: 130px;
+        height: 8.125em; /*130px*/
         width: 100%;
         position: fixed;
         top: 0;
@@ -66,37 +80,38 @@
         font-family: cool;
         text-align: center;
         font-size: 3.1em;
-        padding-bottom: 3px;
-        margin-bottom: 3px;
+        padding-bottom: 0; /*3px*/
+        margin-bottom: 0; /*3px*/
+        line-height: 105%;
+        height: 40%;
+
       }
 
       h2 {
-        
         font-family: cool;
         font-size: 250%;
-        text-shadow: 1px 1px rgba(255, 102, 102, 1.0);
+        text-shadow: .0625em .0625em rgba(255, 102, 102, 1.0); /*1px*/
 
       }
 
       figure {
-
-        margin-left: 250px;
+        margin-left: 13.4em; /*250px*/
 
       }
 
       li {
-
         display: inline-block;
-        margin: 3px;
-        height: 20px;
+        margin: .2875em; /*3px*/
+        height: 1.25em; /*20px*/
 
 
       }
 
       a:link, a:visited {
-
         color:white;
         text-decoration: none;
+        height: 100%;
+        line-height: 100%;
 
       }
       a:hover {
@@ -106,36 +121,67 @@
       }
 
       footer{
-        
-        height: 70px;
+        height: 1.875em; /*30px*/
         bottom: 0;
         margin: 0;
-        padding: 0;
+        padding-bottom: .20em;
         width: 100%;
         background-color: #EAD6E0;
         position: fixed;
+        font-size: 70%;
+        text-align: right;
       }
         
       img {
-
-        border-radius: 20px;
-        box-shadow: 5px 5px black;
-        margin-top: 10px;
+        border-radius: 1.25em; /*20px*/
+        box-shadow: .3125em .3125em black; /*5px 5px*/
+        margin-top: .625em; /*10px*/
         border-left: solid rgba(59, 59, 63, 1.0);
         border-top: solid rgba(59, 59, 63, 1.0);
-        height: 100%;
+        max-width: 100.75em; /*700px*/
+        /*width: 100%;*/
 
       }
 
       img:hover {
-
        border-left: solid rgba(255, 102, 102, 1.0);
        border-top: solid rgba(255, 102, 102, 1.0); 
-       box-shadow: 5px 5px rgba(255, 102, 102, 1.0);
+       box-shadow: .3125em .3125em rgba(255, 102, 102, 1.0); /*5px 5px*/ 
       
       }
 
-      </style>
+      p {
+        padding: 0 .3125em; /*5px l-r*/
+      }
+
+      @media screen and (max-width: 1436px) {
+        h1 {
+        
+        font-size: 2.0em;
+        }
+      }
+
+      @media screen and (max-width: 1040px) {
+
+
+        body { 
+          
+          background-image: none;
+        }
+    
+        section {
+        margin-left: 0; /*60px*/
+
+        }
+        
+        figure {
+          margin-left: 5px;
+          max-width: 700px;
+          width: 100%;
+        }  
+      }  
+
+     </style>
     
     <title>I dig it.</title>
     <meta name="description" content="Dig in.">
@@ -148,8 +194,8 @@
 
     <body>
       <header>
-        <h1>Archaeology: places I have worked.  Dig in!</h1>
-        <nav align="center">
+        <h1>Archaeology: places I have worked. Dig in!</h1>
+        <nav>
           <ul>
             <li><a href="#FieldSchool">Cahokia Mounds, IL</a></li>
             <li><a href="#Washington">Olympic Peninsula, WA</a></li>
@@ -166,8 +212,9 @@
         <article>
           <section>
             <a id="FieldSchool"></a>
+
             <h2>Cahokia Mounds, IL</h2>
-            <p>I got my start in prehistoric archaeology digging a site near Southern Illinois University, Edwardsville.  It was a pre-Cahokian and my job (once in the lab) was to look for evidence of maize.  We were trying to track down the entrance of corn into local society.  Cahokia Mounds is about 20 minutes east of St. Louis, MO. <br><a href="http://www.cahokiamounds.org">Visit Cahokia!</a></p>  
+            <p>I got my start in prehistoric archaeology digging a pre-Cahokian site near Southern Illinois University, Edwardsville.  My job (once in the lab) was to look for evidence of maize.  We were trying to track down the entrance of corn into local society.  Cahokia Mounds is about 20 minutes east of St. Louis, MO. <br><a href="http://www.cahokiamounds.org">Visit Cahokia!</a></p>  
               <figure>
                 <img src="images/resize/cahokia%20mounds.jpg" alt="Cahokia Mounds circa 1200 A.D." />
                 <figcaption>Cahokia Mounds Circa 1200 A.D.  Image from legendsofamerica.com</figcaption>
@@ -209,10 +256,10 @@
           <a id="MayanRoute"></a>
           <h2> All work &amp; no play?</h2>
           <h3>The Mayan Route</h3> 
-          <p>I took some time off to travel the Mayan Route &amp; see ruins in Central America.  After finishing language school in Costa Rica we chicken-bussed it up to the Yucatan.  Wonder what music was playing as we flew like crazy people down the mountainside leaving Gautemala?  Madonna &amp; Bon Jovi.  Hang onto your chickens ~ we're livin on a prayer!</p>  
+          <p>I took four or five months off to travel the Mayan Route &amp; see ruins in Central America.  After finishing language school in Costa Rica we meandered up to the Yucatan &amp; saw lots of non-Mayan archaeology in Nicaragua &amp; Honduras before arrivinga at the Mayan sites of Cop&aacute;n Ruinas (N. Honduras), Palenque, Chich&eacute;n Itz&aacute;, &amp; Tulum (S. Mexico).</p>  
               <figure>
-                <img src="images/resize/chickentonight.jpg" alt="Guatemala Travel Bus" />
-                  <figcaption>That guy in the doorway?  That's his job.  To hang out and look around the corner for oncoming traffic as you swing around mountain bends.</figcaption>
+                <img src="images/resize/Laguna%20de%20Apoyo,%20Nicaragua" alt="Guatemala Travel Bus" />
+                  <figcaption>I enjoyed my work at Tse-Whit-Zen &amp; travels in C.America most.  It's amazing to live among the Indians whose archaeology your digging or seeing.</figcaption>
               </figure>
               
               <!--
@@ -226,8 +273,7 @@
     </article>
       </main>
         <footer>
-          <p>Built for LaunchCode's ReBootU Coding Bootcamp</p>
-          <p>&copy; 2015 Toshia Verheggen</p>
+          <p>Built for LaunchCode's ReBootU Coding Bootcamp; 2015 Toshia Verheggen</p>
         </footer>
   </body>
 </html>
