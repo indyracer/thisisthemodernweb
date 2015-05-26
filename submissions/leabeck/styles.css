@@ -1,0 +1,109 @@
+header {
+	background-color: transparent;
+	color: #ccc;
+	text-align : center;
+}
+
+
+@font-face {
+	font-family: GoudyItalic;
+	src: url(GoudyStM-Italic-webfont.woff);
+}
+
+#title {
+	width : 100%;
+	text-align : center;
+	font-family: GoudyItalic;
+	font-size: 32pt;
+	margin-top: .5em;
+	margin-bottom: 1em;
+}
+
+.right {
+	float : right;
+	padding : 1em;
+}
+
+.left {
+	float : left;
+	padding : 1em;
+}
+
+.wrapper {
+	padding : 1em 2em 1em 2em;
+	font-size: 1.75em;
+	font-weight: bold;
+	background-color: #ccc;
+	opacity: 0.8;
+	color: #000
+}
+
+nav {
+	line-height: 2em;
+	height: 3em;
+	padding: 2em;
+}
+
+body {
+	background-image: url("images/images copy.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color : #ccc;
+}
+
+section {
+	background-color : transparent;
+	width : 100%;
+	margin : 0;
+}
+
+p {
+	font : 11pt/16pt georgia, serif, times, serif;
+	text-align : left;
+}
+
+ul {
+	list-style-type: none;
+	margin-top : 1em;
+	margin-bottom : 1em;
+	margin-left : 1em;
+	margin-right : 1em;
+	padding : 0;
+}
+
+li {
+    float: left;
+    background-color : #aaa;
+	padding : 1em;
+	height : .5em;
+	line-height : .5em;
+	border-radius : .5em;
+	margin-right : 1em;
+	transition-duration : 3s;
+	transiton-property : background-color; 
+}
+
+li:hover, a:hover {
+	background-color : #FF00FF;
+	transition-duration : 3s;
+	transiton-property : background-color;
+}
+
+
+a {
+    display: block;
+    width: 3em;
+}
+
+a:visited {
+	color : #00ff00;
+}
+
+footer {
+	background-color : transparent;
+	color : #ccc;
+	clear : both;
+	text-align: center;
+	padding: 5px;
+}
