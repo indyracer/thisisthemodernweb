@@ -27,7 +27,7 @@ This is the second of three exercises, which build off of each other. You'll get
 
 ###Resources
 ####General CSS
-* [Examples from class](http://chrisbay.github.io/launchcode-rebootu-web-examples/)
+* [Examples from class](http://launchcode-rebootu.github.io/launchcode-rebootu-web-examples/)
 * [w3schools CSS Reference](http://www.w3schools.com/css/default.asp)
 * [w3schools CSS3 Reference](http://www.w3schools.com/css/css3_intro.asp)
 * [CSS Zen Garden](http://www.csszengarden.com)
