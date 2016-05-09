@@ -5,7 +5,7 @@ This is the third of three exercises introducing you to the basics of static web
 You'll learn how to create fluid, responsive layouts that look good at all widths, and are future-proof!
 
 ###Prerequisites
-* You've completed [This is HTML5](https://github.com/chrisbay/thisisthemodernweb/tree/gh-pages/thisiscss3)
+* You've completed [This is HTML5](https://github.com/launchcode-rebootu/thisisthemodernweb/tree/gh-pages/thisiscss3)
 * You understand the primary CSS units: px, em, %. ([w3schools CSS Units Reference](http://www.w3schools.com/cssref/css_units.asp))
 
 ###Your mission, should you choose to accept it:

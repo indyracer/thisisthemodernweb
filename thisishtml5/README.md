@@ -3,9 +3,9 @@
 This is the first of three exercises, which build off of each other. You'll get comfortable with semantic markup, some elements introduced by HTML5, and separating content from design and layout.
 
 ###Prerequisites
-* You've set up your environment and the project as outlined in the [setup guide](https://github.com/chrisbay/thisisthemodernweb/tree/gh-pages/setup)
+* You've set up your environment and the project as outlined in the project README
 * Familiarity with the basics of HTML
-* Understanding of importance of semantic markup
+* Understanding of importance of semantic markup. If the phrase "semantic markup" has you scratching your head, read an [overview](http://shapeshed.com/the_importance_of_semantic_markup/) or [two](http://html5doctor.com/lets-talk-about-semantics/), and bookmark the [HTML5 Doctor Element Index](http://html5doctor.com/element-index/).
 
 ###Your mission, should you choose to accept it:
 
@@ -27,8 +27,8 @@ This is the first of three exercises, which build off of each other. You'll get 
 	* Each HTML5 element should have semantic meaning. If you add a `<div>` or `<span>` you should be ready to justify your decision.
 	* Your page must validate as HTML5 using the [w3c Validator](http://validator.w3.org). Among other things, this means you may not use things such as `<font>` or `<b>` tags, or the `background` attribute on your `<body>`. (Don't worry, we'll make our page look pretty later.)
 	* Be original, and create your page without looking at the source for other pages in the project (other than the one linked above).
-5. When you're done, `git add` new files, then commit and push all changes to your fork (include a usefule message with your commit), and [create a pull request](https://help.github.com/articles/creating-a-pull-request/) so your changes can be merged into the main repo. When pushing, not that you need to push to the `gh-pages` branch.
-6. Wait for your changes to be pulled, and then look for your page on [the project page](http://chrisbay.github.io/thisisthemodernweb/)!
+5. When you're done, `git add` new files, then commit and push all changes to your fork (include a useful message with your commit), and [create a pull request](https://help.github.com/articles/creating-a-pull-request/) so your changes can be merged into the main repo. When pushing, not that you need to push to the `gh-pages` branch.
+6. Wait for your changes to be pulled, and then look for your page on [the project page](http://launchcode-rebootu.github.io/thisisthemodernweb/)!
 7. Well done. Time to [dive into some CSS](https://github.com/chrisbay/thisisthemodernweb/tree/gh-pages/thisiscss3)!
 
 ###Resources
