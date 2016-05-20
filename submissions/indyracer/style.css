@@ -1,0 +1,38 @@
+#introduction {
+	background-color: #0E0783;
+	border: medium solid #D7CC06;
+}
+
+#opening {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: medium;
+	color: white;
+}
+
+h3 {
+	font-family: Waltograph;
+	font-size: 36px;
+}
+.body p {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: medium;
+}
+
+#boarding aside {
+	float: left;
+	margin: 20px;
+	padding: 5px;
+}
+#first-day img {
+	float: right;
+	padding: 5px;
+	margin: 5px;
+}
+
+#boarding {
+	margin-bottom: 100px;
+	margin-top: 0px;
+}
+#boarding p {
+	padding: 50px;
+}
