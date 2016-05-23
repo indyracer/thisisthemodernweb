@@ -1,7 +1,16 @@
 #introduction {
 	background-color: #0E0783;
 	border: medium solid #D7CC06;
+	height: 660px;
+	padding-left: 5px;
+	}
+
+#introduction p{
+	font-size: x-large;
 }
+#introduction img{
+	padding-left: 300px;
+	}
 
 #opening {
 	font-family: Verdana, Geneva, sans-serif;
@@ -9,30 +18,70 @@
 	color: white;
 }
 
-h3 {
-	font-family: Waltograph;
-	font-size: 36px;
-}
-.body p {
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: medium;
-}
-
-#boarding aside {
-	float: left;
-	margin: 20px;
-	padding: 5px;
-}
-#first-day img {
-	float: right;
-	padding: 5px;
+#atseas, #day-in-florida, #boarding, #bahamas, #castaway {
+	border: medium solid #0e0783;
 	margin: 5px;
 }
 
-#boarding {
-	margin-bottom: 100px;
-	margin-top: 0px;
+h2 {
+font-size: 56px;
+	font-family: Waltograph;
+	color: #b21626;
 }
+
+.left {
+	float: left;
+	margin-right: 10px;
+}
+
+.right {
+	float: right;
+	margin-left: 50px;
+}
+
+
+.body p {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: x-large;
+}
+
+#day-in-florida{
+	height: 475px;
+	}
+
+#first-day img {
+	float: right;
+	padding: 5px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 100px;
+	margin-left: 5px;
+}
+
+#boarding2 {
+	/*margin-bottom: 100px;
+	margin-top: 0px;*/
+	height: 650px;
+}
+
 #boarding p {
-	padding: 50px;
+
+}
+
+#castaway article .bottom img {
+	margin: 10px;
+}
+#castaway article .left img {
+	margin: 5px;
+}
+#bahamas article .right img {
+	margin: 5px;
+}
+
+footer{
+	background-color: #0E0783;
+	border: medium solid #D7CC06;
+	text-align:center;
+	color:white;
+
 }
