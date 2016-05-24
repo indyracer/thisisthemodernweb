@@ -1,3 +1,29 @@
+/* Make HTML5 layout elements block elements for older browsers */
+header, nav, aside, article, footer, section {
+display: block;
+}
+
+nav a{
+	background-color: #0E0783;
+	text-align: center;
+	display: inline-block;
+	width: 15%;
+	list-style-type: none;
+	color: white;
+	font-family: Waltograph, sans-serif;
+	font-size: 24px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-decoration:none;
+	border-radius:15px;
+	margin-left: 25px;
+	padding-left: 25px;
+
+}
+
+nav a:hover{
+	background-color: #b21626;
+}
 #introduction {
 	background-color: #0E0783;
 	border: medium solid #D7CC06;
@@ -27,26 +53,37 @@ h2 {
 font-size: 56px;
 	font-family: Waltograph;
 	color: #b21626;
+	padding-left: 10px;
 }
 
 .left {
 	float: left;
 	margin-right: 10px;
+	padding-left: 10px;
 }
 
 .right {
 	float: right;
 	margin-left: 50px;
+	padding-right: 10px;
 }
 
 
 .body p {
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: x-large;
+	padding-left: 10px;
+	padding-right:10px;
+}
+
+input {
+	background-color: #b21626;
+	border-radius: 25px;
+	color:white;
 }
 
 #day-in-florida{
-	height: 475px;
+	height: 550px;
 	}
 
 #first-day img {
@@ -83,5 +120,8 @@ footer{
 	border: medium solid #D7CC06;
 	text-align:center;
 	color:white;
+}
 
+footer a{
+	color:white;
 }
