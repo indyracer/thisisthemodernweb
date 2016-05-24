@@ -18,11 +18,11 @@ nav a{
 	border-radius:15px;
 	margin-left: 25px;
 	padding-left: 25px;
-
-}
+	}
 
 nav a:hover{
 	background-color: #b21626;
+	transform:scale(1.25);
 }
 #introduction {
 	background-color: #0E0783;
@@ -118,6 +118,11 @@ input {
 footer{
 	background-color: #0E0783;
 	border: medium solid #D7CC06;
+	}
+
+footer p{
+	height: 45px;
+	line-height: 45px;
 	text-align:center;
 	color:white;
 }
