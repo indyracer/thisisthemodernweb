@@ -1,4 +1,4 @@
-/* Make HTML5 layout elements block elements for older browsers */
+ that /* Make HTML5 layout elements block elements for older browsers */
 header, nav, aside, article, footer, section {
 display: block;
 }
@@ -11,7 +11,7 @@ nav a{
 	list-style-type: none;
 	color: white;
 	font-family: Waltograph, sans-serif;
-	font-size: 24px;
+	font-size: 2em;
 	margin-top: 30px;
 	margin-bottom: 30px;
 	text-decoration:none;
@@ -24,23 +24,28 @@ nav a:hover{
 	background-color: #b21626;
 	transform:scale(1.25);
 }
+
+img {
+  max-width: 100%;
+}
 #introduction {
 	background-color: #0E0783;
 	border: medium solid #D7CC06;
-	height: 660px;
+	/*height: 660px;*/
 	padding-left: 5px;
 	}
 
 #introduction p{
-	font-size: x-large;
+	font-size: 1.5em;
 }
 #introduction img{
 	padding-left: 300px;
+  padding-bottom: 10px;
 	}
 
 #opening {
 	font-family: Verdana, Geneva, sans-serif;
-	font-size: medium;
+	font-size: 1em;
 	color: white;
 }
 
@@ -50,7 +55,7 @@ nav a:hover{
 }
 
 h2 {
-font-size: 56px;
+font-size: 3em;
 	font-family: Waltograph;
 	color: #b21626;
 	padding-left: 10px;
@@ -71,7 +76,7 @@ font-size: 56px;
 
 .body p {
 	font-family: Verdana, Geneva, sans-serif;
-	font-size: x-large;
+	font-size: 1.5em;
 	padding-left: 10px;
 	padding-right:10px;
 }
@@ -83,7 +88,7 @@ input {
 }
 
 #day-in-florida{
-	height: 550px;
+	/*height: 550px;*/
 	}
 
 #first-day img {
@@ -98,7 +103,7 @@ input {
 #boarding2 {
 	/*margin-bottom: 100px;
 	margin-top: 0px;*/
-	height: 650px;
+	/*height: 650px;*/
 }
 
 #boarding p {
